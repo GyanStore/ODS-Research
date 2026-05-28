@@ -1,0 +1,19 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.docx
+~$*
+.env
+*.log
+
+# Legacy / duplicate sources (curated copy lives in structured folders)
+ODS- A2/
+*_converted.txt
+*_MConverter.eu_*.md
+*.html
+table_converter.py
+tex_to_docx_converter.py
+formatting_checklist.md
+ods_v2.md

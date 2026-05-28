@@ -1,0 +1,29 @@
+Parameter,Activity,Case 1: Standard,Case 2: Rainy Day,Case 3: Skill Focus
+Weight (wᵢ) - dimensionless,,,,
+,Sleep (t₁),1.0,1.0,1.0
+,Learning (t₂),0.8,0.9,1.0
+,Physical Play (t₃),0.9,0.5,0.8
+,Creative Play (t₄),0.7,0.8,0.6
+,Meals (t₅),0.6,0.6,0.6
+,Hygiene (t₆),0.5,0.5,0.5
+Ideal Duration (μᵢ) - Hours,,,,
+,Sleep (t₁),11.0,11.0,11.0
+,Learning (t₂),2.0,2.5,3.0
+,Physical Play (t₃),2.0,1.0,1.5
+,Creative Play (t₄),1.5,2.0,1.0
+,Meals (t₅),1.5,1.5,1.5
+,Hygiene (t₆),1.0,1.0,1.0
+Bounds (Lᵢ Uᵢ) - Hours,,,,
+,Sleep (t₁),[10.0-12.0],[10.0-12.0],[10.0-12.0]
+,Learning (t₂),[1.5-3.0],[2.0-3.5],[2.5-3.5]
+,Physical Play (t₃),[2.0-4.0],[0.5-1.5],[1.0-2.5]
+,Creative Play (t₄),[1.0-2.5],[1.5-3.0],[0.5-2.0]
+,Meals (t₅),[1.5-2.5],[1.5-2.5],[1.5-2.5]
+,Hygiene (t₆),[0.8-1.5],[0.8-1.5],[0.8-1.5]
+Penalty Coefficient (aᵢ) - 1/hours²,,,,
+,Sleep (t₁),0.5,0.5,0.5
+,Learning (t₂),0.8,0.7,0.6
+,Physical Play (t₃),0.4,0.6,0.5
+,Creative Play (t₄),0.6,0.4,0.7
+,Meals (t₅),0.8,0.8,0.8
+,Hygiene (t₆),0.7,0.7,0.7
